@@ -16,6 +16,14 @@ namespace Formas
             lado2 = l2;
         }
 
-        public 
+        public override double Area()
+        {
+            return lado1 * lado2;
+        }
+
+        public override double Perimetro()
+        {
+            return 2 * lado1 + 2 * lado2;
+        }
     }
 }

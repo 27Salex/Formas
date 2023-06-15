@@ -6,7 +6,19 @@ using System.Threading.Tasks;
 
 namespace Formas
 {
-    public class Circulo
+    public class Circulo : Forma
     {
+        private int radio;
+
+        public Circulo(int r)
+        {
+            radio = r;
+        }
+
+        public override double Area()
+        {
+            return Math.PI * Math.Pow(radio, 2);
+        }
     }
+    
 }
