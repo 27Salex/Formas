@@ -19,6 +19,10 @@ namespace Formas
         {
             return Math.PI * Math.Pow(radio, 2);
         }
+        public override double Perimetro()
+        {
+            return 2 * Math.PI * radio;
+        }
     }
     
 }

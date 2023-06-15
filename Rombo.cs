@@ -24,6 +24,10 @@ namespace Formas
         {
             return diagonal1 * diagonal2 /2;
         }
+        public override double Perimetro()
+        {
+            return lado1*2 + lado2*2;
+        }
 
     }
 }
